@@ -1,0 +1,147 @@
+body{
+    margin:0 auto;
+}
+
+.container {
+    min-width:80%;  
+    margin: auto;
+  
+    margin-top:100px;
+}
+
+#game {
+    position: relative;
+    background:  #1a1a1a
+    ;
+    min-width:480px;
+    min-height:480px;
+    display: table;
+    margin:2px auto;
+    border-radius:50%;
+    
+}
+
+#controls {
+    position: absolute;
+    background:#ECE7EE;
+    height:260px;
+    width:260px;
+    border-radius: 50%;
+    top:110px;
+    left:110px;
+    border: 15px solid  #1a1a1a;
+}
+
+#conrols-btns {
+    position:absolute;
+    top: 170px;
+    left: 170px;
+}
+
+.btn{
+    min-width: 230px;
+    min-height:230px;
+    float:left;
+    margin:2px;
+    border: 12px solid  #1a1a1a;
+}
+
+.clear {
+    clear: both;
+}
+
+.controls-div {
+    display:inline-block;
+    margin-left: 10px;
+    margin-top:20px;
+}
+
+.controls-div p {
+   font-family:sans-serif;
+    margin:0;
+    margin-top: 4px;
+    text-align:center;
+    text-transform: uppercase;
+    font-size:11px; 
+}
+
+button {
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    border:3px solid #1A1A1A;
+    box-shadow: 2px 2px 8px #1a1a1a;
+    outline: none;
+}
+
+button:active {
+    transform: translate(0, 1px);
+}
+
+#start {
+    background:  #b30000;
+}
+
+#strict {
+    background: #cccc00;
+}
+
+#score-div{
+    height:30px;
+    width: 50px;
+    background:#32050C;
+    color: #DC0D29;
+    border:5px solid #1A1A1A;
+    text-align:center; 
+    font-size:23px;
+    padding-top:5px;
+    border-radius: 8px;
+}
+
+#onof {
+    width:12px;
+    height:12px;
+    border: 2px solid #1a1a1a;
+    background:#1a1a1a;
+    border-radius: 50%;
+    margin-left: 6px;
+    margin-bottom: 5px;;
+}
+
+.onofback {
+    background: red;
+}
+
+
+h1 {
+    font-size:50px;
+    margin:0;
+    color: #1a1a1a;
+    text-align:center;
+}
+
+
+
+#green {
+    background: green;
+    border-top-left-radius: 100%;
+}
+
+#red {
+    background: red;
+    border-top-right-radius: 100%;
+}
+
+#yellow {
+    background: yellow;
+    border-bottom-left-radius: 100%;
+}
+
+#blue {
+    background: blue;
+    border-bottom-right-radius: 100%;
+}
+
+.blink {
+    background: white;
+}
